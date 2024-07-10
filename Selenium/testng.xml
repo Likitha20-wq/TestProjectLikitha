@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium">
+    <test name="Regression">
+    
+    <parameter name="MyName" value="Likitha"></parameter>
+     <parameter name="MyName" value="Haritha"></parameter>
+      <parameter name="MyName" value="Aarav"></parameter>
+         <classes>
+             <class name="Selenium.Selenium.BrowserTest"/>
+             
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
